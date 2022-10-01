@@ -1,0 +1,35 @@
+package org.testleaf;
+
+public class Plaindrome {
+
+	
+
+			public static void main(String[] args) {
+				int r,sum=0,temp;
+				int n=454;
+				temp=n;
+				while(n>0)
+				{
+					r=n%10;
+					sum=(sum*10)+r;
+					n=n/10;
+					
+				}
+				if(temp==sum)
+				system.out.println("palindrome number");
+				else
+					system.out.println("not palindrome");
+			} 
+
+		}
+
+
+	}
+
+}
+
+package org.testleaf;
+
+public class ReverseString {
+
+}
